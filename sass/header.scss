@@ -1,0 +1,32 @@
+@import 'variable';
+nav{
+    background-color: $ueh_green_color;
+    *{
+        color: #fff;
+    }
+    a:hover{
+        color: #fff;
+    }
+
+    img{
+        max-width: 10vh;
+        margin: 0px 20px 0px 0px;
+    }
+    ul li .dropdown-menu .dropdown-item{
+        color: #000;
+    }
+    button{
+        margin: 10px;
+        color: $ueh_orange_color;
+        border: $ueh_orange_color 1px solid;
+        background: none;
+        border-radius: 4px;
+        padding: 7px 15px 7px 15px;
+    }
+    button:hover{
+        color: #fff;
+        background: $ueh_orange_color;
+        transition: background 1s ease-out;
+    }
+    
+}
