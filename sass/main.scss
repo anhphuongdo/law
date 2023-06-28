@@ -20,49 +20,59 @@
     padding-top: 50px !important;
     padding-bottom: 50px !important;
 
-    .swiper-slide{
-        background-position: center;
-        background-size: cover;
-        width: 30vw;
-        height: auto;
-        aspect-ratio: 16/9;
-        border: #000 1px solid;
-        perspective: 600px;
-
-        .card{
-            height: 100%;
-            width: 100%;
+    .swiper-wrapper{
+        .swiper-slide{
+            background-position: center;
+            background-size: cover;
+            width: 30vw;
+            height: auto;
+            aspect-ratio: 16/9;
+            perspective: 600px;
             position: relative;
-            transform-style: preserve-3d;
-            animation: rotate 5s linear infinite;
 
             .face{
-                width: 100%;
                 height: 100%;
+                border: #000 1px solid;
                 position: absolute;
-                opacity: 0.6;
             }
             .side{
-                width: 10%;
                 height: 100%;
-                position: absolute;
                 border: #000 1px solid;
-
+                position: absolute;
             }
-            .right{
-                background-color: gray;
-                transform: translateX(462px) rotateY(60deg) translateZ(-36px);
+
+            .front{
+                width: 100%;
             }
             .left{
-                background-color: gray;
-                transform: rotateY(-60deg) translateZ(20px) translateX(-32px);
+                width: 10%;
+                background-color: #fff;
+                transform: translateX(-50%) rotateY(-60deg) translateX(-50%);
+                /* transform: translateX(-50%) rotateY(-90deg) translateX(-50%); */
             }
-            
+            .right{
+                width: 10%;
+                background-color: #fff;
+                transform: translateX(950%) rotateY(60deg) translateX(50%);                
+                /* transform:  translateX(450%) rotateY(90deg) translateX(50%); */
+            }
         }
-        /* @keyframes rotate {
-            100%{
-                transform: rotateY(360deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .swiper {        
+        .swiper-wrapper{
+            .swiper-slide{    
+                .left{
+                    width: 20%;
+                    transform: translateX(-50%) rotateY(-90deg) translateX(-50%);
+                }
+                .right{
+                    width: 20%;
+                    transform:  translateX(450%) rotateY(90deg) translateX(50%);
+                }
             }
-        } */
+        }
     }
 }

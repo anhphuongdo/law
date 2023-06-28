@@ -29,46 +29,53 @@
     </header>
     <body>
         <div class="container-fluid">
-            <p class="test">Hello World</p>
-
-            <!-- Slider main container -->
             <div class="swiper">
-            <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="card">
+                        <div class="face front">1</div>
+                        <div class="side left" id="left_side">left</div>
+                        <div class="side right" id = "right_side">right</div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="face front">2</div>
                         <div class="side left">left</div>
-                            <div class="face front">1</div>
-                            <div class="side right">right</div>
-                        </div>
+                        <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
-                            <div class="side left">left</div>
-                            <div class="face front">2</div>
-                            <div class="side right">right</div>
-                        </div>
+                        <div class="face front">3</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
-                            <div class="side left">left</div>
-                            <div class="face front">3</div>
-                            <div class="side right">right</div>
-                        </div>
+                        <div class="face front">4</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
-                            <div class="side left">left</div>
-                            <div class="face front">4</div>
-                            <div class="side right">right</div>
-                        </div>
+                        <div class="face front">5</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="card">
-                            <div class="side left">left</div>
-                            <div class="face front">5</div>
-                            <div class="side right">right</div>
-                        </div>
+                        <div class="face front">6</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
+                    </div><div class="swiper-slide">
+                        <div class="face front">7</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
+                    </div><div class="swiper-slide">
+                        <div class="face front">8</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
+                    </div><div class="swiper-slide">
+                        <div class="face front">9</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
+                    </div><div class="swiper-slide">
+                        <div class="face front">10</div>
+                        <div class="side left">left</div>
+                        <div class="side right">right</div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
