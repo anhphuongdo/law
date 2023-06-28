@@ -8,10 +8,13 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
         <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
+        <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
 
         <link rel="stylesheet" href="../dist/main.css">
         <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
         <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+        <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css"
+/>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,23 +29,52 @@
     </header>
     <body>
         <div class="container-fluid">
-            <p>Hello World</p>
-            <div class="container">
-                <ul class="navigation">
-                    <div class="navigation-item">
-                        <span>1</span>
-                        <span>2</span>
-                        <span>3</span>
-                        <span>4</span>
-                        <span>5</span>
+            <p class="test">Hello World</p>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">
+                        <div class="side left">left</div>
+                            <div class="face front">1</div>
+                            <div class="side right">right</div>
+                        </div>
                     </div>
-                </ul>
-                <div class="content"></div>
-                <div class="slider">
-                    <button class="next-btn"></button>
-                    <button class="prev-btn"></button>
-                    <ul class="slider-wrapper" style="--index: 0"></ul>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="side left">left</div>
+                            <div class="face front">2</div>
+                            <div class="side right">right</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="side left">left</div>
+                            <div class="face front">3</div>
+                            <div class="side right">right</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="side left">left</div>
+                            <div class="face front">4</div>
+                            <div class="side right">right</div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">
+                            <div class="side left">left</div>
+                            <div class="face front">5</div>
+                            <div class="side right">right</div>
+                        </div>
+                    </div>
                 </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <!-- <div class="glide">
                 <div class="glide__track" data-glide-el="track">
@@ -76,21 +108,8 @@
             include dirname(__FILE__).'\footer.php';
         ?>
     </footer>
-    <script src="./js/index.js"></script>
+    <script src="../js/index.js"></script>
     <script>
-        var glide1 = new Glide('.glide', {
-            type: 'carousel',
-            perView: 3,
-            focusAt: 'center',
-            gap: 20,
-            autoplay: 2500,
-            hoverpause: true,
-            animationDuration: 1000,
-            peek: {
-                before: 200,
-                after: 200
-            },
-        });
-        glide1.mount();
+        glider();
     </script>
 </html>
