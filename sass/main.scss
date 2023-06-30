@@ -2,15 +2,6 @@
 *{
     font-family: $normal_font;
 }
-
-/* .glide{
-    .glide__slide{
-        border: #000 1px solid;
-        width: 30vw;
-        height: auto;
-        aspect-ratio: 16/9;
-    }
-} */
 .body{
     margin: 0;
     padding: 0;
@@ -24,42 +15,41 @@
         .swiper-slide{
             background-position: center;
             background-size: cover;
-            width: 30vw;
-            height: auto;
-            aspect-ratio: 16/9;
+            height: 30vw;
+            width: auto;
+            aspect-ratio: 14/16;
             perspective: 600px;
             position: relative;
 
             .face{
+                background: linear-gradient(-45deg,$ueh_orange_color, $ueh_green_color);
                 height: 100%;
+                width: 100%;
                 border: #000 1px solid;
                 position: absolute;
             }
             .side{
+                width: 10%;
                 height: 100%;
                 border: #000 1px solid;
                 position: absolute;
             }
-
-            .front{
-                width: 100%;
-            }
             .left{
-                width: 10%;
                 background-color: #fff;
-                transform: translateX(-50%) rotateY(-60deg) translateX(-50%);
-                /* transform: translateX(-50%) rotateY(-90deg) translateX(-50%); */
+                transform: translateX(-50%) rotateY(-65deg) translateX(-50%);
             }
             .right{
-                width: 10%;
                 background-color: #fff;
-                transform: translateX(950%) rotateY(60deg) translateX(50%);                
-                /* transform:  translateX(450%) rotateY(90deg) translateX(50%); */
+                transform: translateX(950%) rotateY(65deg) translateX(50%);                
             }
         }
     }
+    .swiper-button{
+        color: $ueh_green_color;
+    }
 }
 
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .swiper {        
         .swiper-wrapper{
@@ -74,5 +64,20 @@
                 }
             }
         }
+        .swiper-button{
+            display: none;
+        }
     }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

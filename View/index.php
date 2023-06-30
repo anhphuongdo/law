@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Itim|Lobster|Montserrat:500|Noto+Serif|Nunito|Patrick+Hand|Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i|Roboto+Slab|Saira" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
     </head>
     <header>
         <?php
@@ -32,82 +33,57 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="face front">1</div>
+                        <div class="face front"></div>
                         <div class="side left" id="left_side">left</div>
                         <div class="side right" id = "right_side">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="face front">2</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="face front">3</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="face front">4</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="face front">5</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="face front">6</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div><div class="swiper-slide">
-                        <div class="face front">7</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div><div class="swiper-slide">
-                        <div class="face front">8</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div><div class="swiper-slide">
-                        <div class="face front">9</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div><div class="swiper-slide">
-                        <div class="face front">10</div>
+                        <div class="face front"></div>
                         <div class="side left">left</div>
                         <div class="side right">right</div>
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
 
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button swiper-button-prev"></div>
+                <div class="swiper-button swiper-button-next"></div>
             </div>
-            <!-- <div class="glide">
-                <div class="glide__track" data-glide-el="track">
-                    <ul class="glide__slides">
-                        <li class="glide__slide">1</li>
-                        <li class="glide__slide">2</li>
-                        <li class="glide__slide">3</li>
-                        <li class="glide__slide">4</li>
-                        <li class="glide__slide">5</li>
-                        <li class="glide__slide">6</li>
-                        <li class="glide__slide">7</li>
-                        <li class="glide__slide">8</li>
-                        <li class="glide__slide">9</li>
-                        <li class="glide__slide">10</li>
-                    </ul>
-                </div>
-                <div class="glide__bullets" data-glide-el="controls[nav]">
-                    <button class="glide__bullet" data-glide-dir="=0"></button>
-                    <button class="glide__bullet" data-glide-dir="=1"></button>
-                    <button class="glide__bullet" data-glide-dir="=2"></button>
-                </div>
-                <div class="glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
-                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
-                </div>
-            </div> -->
         </div>
     </body>
     <footer>
@@ -117,6 +93,6 @@
     </footer>
     <script src="../js/index.js"></script>
     <script>
-        glider();
+        swiper();
     </script>
 </html>

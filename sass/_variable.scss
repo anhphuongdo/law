@@ -14,3 +14,104 @@ $container_width: 100vw;
 
 /* transition */
 $transition: 0.5 ease-in-out;
+
+/* button */
+$border-radius: 50%;
+
+$btn-padding-top: 0.625rem;
+$btn-padding-bottom: 0.5rem;
+$btn-padding-x: 1.5rem;
+$btn-font-size: 0.75rem;
+$btn-line-height: 1.5;
+
+$btn-padding-top-lg: 0.75rem;
+$btn-padding-bottom-lg: 0.6875rem;
+$btn-padding-x-lg: 1.6875rem;
+$btn-font-size-lg: 0.875rem;
+$btn-line-height-lg: 1.6;
+
+$btn-padding-top-sm: 0.375rem;
+$btn-padding-bottom-sm: 0.3125rem;
+$btn-padding-x-sm: 1rem;
+$btn-font-size-sm: 0.75rem;
+$btn-line-height-sm: 1.5;
+
+/* $btn-border-width: $border-width-alternate; */
+
+/* $btn-font-weight: $font-weight-medium; */
+$btn-box-shadow: 0 4px 9px -4px rgba(#000, 0.35);
+$btn-hover-box-shadow: 0 8px 9px -4px rgba(#000, 0.15), 0 4px 18px 0 rgba(#000, 0.1);
+$btn-focus-box-shadow: $btn-hover-box-shadow;
+$btn-active-box-shadow: $btn-focus-box-shadow;
+/* $btn-focus-width: $input-btn-focus-width; */
+$btn-disabled-opacity: 0.65;
+
+/* $btn-link-color: $link-color;
+$btn-link-hover-color: $link-hover-color;
+$btn-link-focus-color: $link-focus-color;
+$btn-link-active-color: $link-active-color; */
+/* $btn-link-disabled-color: $gray-500; */
+$btn-link-hover-bg: hsl(0, 0%, 96%);
+
+$btn-border-radius: $border-radius;
+
+$btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+$btn-hover-bg-shade-amount: 5%;
+$btn-focus-bg-shade-amount: 5%;
+$btn-active-bg-shade-amount: 10%;
+
+$btn-outline-padding-top: 0.5rem;
+$btn-outline-padding-bottom: 0.375rem;
+$btn-outline-padding-x: 1.375rem;
+/* $btn-outline-border-width: $border-width-alternate; */
+$btn-outline-line-height: 1.5;
+
+$btn-outline-padding-top-lg: 0.625rem;
+$btn-outline-padding-bottom-lg: 0.5625rem;
+$btn-outline-padding-x-lg: 1.5625rem;
+$btn-outline-font-size-lg: 0.875rem;
+$btn-outline-line-height-lg: 1.6;
+
+$btn-outline-padding-top-sm: 0.25rem;
+$btn-outline-padding-bottom-sm: 0.1875rem;
+$btn-outline-padding-x-sm: 0.875rem;
+$btn-outline-font-size-sm: 0.75rem;
+$btn-outline-line-height-sm: 1.5;
+
+$btn-rounded-border-radius: 10rem;
+
+$btn-floating-border-radius: 50%;
+
+$btn-floating-width: 2.3125rem;
+$btn-floating-height: 2.3125rem;
+$btn-floating-icon-width: 2.3125rem;
+
+$btn-floating-width-lg: 2.8125rem;
+$btn-floating-height-lg: 2.8125rem;
+$btn-floating-icon-width-lg: 2.8125rem;
+
+$btn-floating-width-sm: 1.8125rem;
+$btn-floating-height-sm: 1.8125rem;
+$btn-floating-icon-width-sm: 1.8125rem;
+
+$btn-outline-floating-icon-width: 2.0625rem;
+$btn-outline-floating-icon-width-lg: 2.5625rem;
+$btn-outline-floating-icon-width-sm: 1.5625rem;
+
+$btn-floating-icon-line-height: 2.3125rem;
+$btn-floating-icon-line-height-lg: 2.8125rem;
+$btn-floating-icon-line-height-sm: 1.8125rem;
+
+$btn-outline-floating-icon-line-height: 2.0625rem;
+$btn-outline-floating-icon-line-height-lg: 2.5625rem;
+$btn-outline-floating-icon-line-height-sm: 1.5625rem;
+
+$fixed-action-btn-right: 2.1875rem;
+$fixed-action-btn-bottom: 2.1875rem;
+$fixed-action-btn-padding-top: 0.9375rem;
+$fixed-action-btn-padding-bottom: 1.25rem;
+$fixed-action-btn-padding-x: 1.25rem;
+$fixed-action-btn-li-margin-bottom: 1.5rem;
+
+$btn-block-margin-top: 0.5rem;

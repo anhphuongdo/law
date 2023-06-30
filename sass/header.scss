@@ -7,13 +7,27 @@ nav{
     a:hover{
         color: #fff;
     }
+    .collapse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     img{
-        max-width: 10vh;
+        width: 10vh;
         margin: 0px 20px 0px 0px;
     }
     ul li .dropdown-menu .dropdown-item{
         color: #000;
+    }
+
+    form{
+        .hide{
+            visibility: hidden;
+        }
+        .active{
+            visibility: visible;;
+        }
     }
     button{
         margin: 10px;
@@ -28,5 +42,4 @@ nav{
         background: $ueh_orange_color;
         transition: background 1s ease-out;
     }
-    
 }
