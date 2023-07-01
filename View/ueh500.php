@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>NGHIÊN CỨU KHOA HỌC</title>
+        <title>UEH500 - FALCUTY OF LAW</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
@@ -30,7 +30,7 @@
     </header>
     <body>
         <div class="container-fluid">
-            <H1>THIS IS NCKH PAGE</H1>
+            <h1>This is UEH500 page</h1>
         </div>
     </body>
     <footer>

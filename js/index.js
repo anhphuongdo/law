@@ -30,8 +30,6 @@ function swiper(){
 }
 
 function show_input_bar(){
-    const input_bar = document.getElementById('input-bar');
-    input_bar.classList.remove("hide");
-    input_bar.classList.add("active");
-    
+    const input_bar = document.getElementById('#input-bar');
+    input_bar.style.display = "block";    
 }

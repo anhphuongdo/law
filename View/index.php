@@ -10,7 +10,7 @@
         <script src="../node_modules/@glidejs/glide/dist/glide.min.js"></script>
         <script src="../node_modules/swiper/swiper-bundle.min.js"></script>
 
-        <link rel="stylesheet" href="../dist/main.css">
+        <link rel="stylesheet" href="../dist/main.css?ts=<?=time()?>">
         <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
         <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
         <link rel="stylesheet" href="../node_modules/swiper/swiper-bundle.min.css"
@@ -25,7 +25,7 @@
     </head>
     <header>
         <?php
-            include dirname(__FILE__).'\header.php';
+            include dirname(__FILE__).'\Shared\header.php';
         ?>
     </header>
     <body>
@@ -88,7 +88,7 @@
     </body>
     <footer>
         <?php
-            include dirname(__FILE__).'\footer.php';
+            include dirname(__FILE__).'\Shared\footer.php';
         ?>
     </footer>
     <script src="../js/index.js"></script>
